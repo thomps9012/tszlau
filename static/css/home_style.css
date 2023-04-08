@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&display=swap");
+:root {
+  --red: #d64045;
+  --orange: #e98a15;
+  --green: #065143;
+  --dark-blue: #9ed8db;
+  --light-blue: #e9fff9;
+}
+* {
+  font-family: "Inspiration", cursive;
+}
+#fourO4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#fourO4 h1 {
+  font-size: 45px;
+}
+#fourO4 p {
+  font-size: 45px;
+  color: var(--light-blue);
+}
+#fourO4 a:hover {
+  filter: brightness(75%);
+  text-decoration: underline;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.light-theme {
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+}
+.dark-theme {
+  background-color: var(--green);
+  color: var(--light-pink);
+}
+#container {
+  min-height: 100%;
+  position: relative;
+}
+h1 {
+  margin: 15px;
+  margin-top: 50px;
+  font-weight: 900;
+  font-size: xx-large;
+  color: var(--light-blue);
+}
+#not-found {
+  color: var(--red);
+}
+ul {
+  list-style: none;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  text-align: right;
+  margin-top: 75%;
+}
+ul li {
+  font-size: xx-large;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+#copyright:hover {
+  cursor: default;
+}
+#copyright {
+  font-size: 30px;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.icon:hover {
+  filter: brightness(75%);
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.light-icons li div,
+.light-logo {
+  background: var(--dark-blue);
+}
+.dark-icons li div,
+.dark-logo {
+  background: var(--light-blue);
+}
+#icons {
+  margin-top: 5%;
+  display: flex;
+  background: no-repeat;
+  z-index: 21;
+}
+#icons li {
+  margin: 5px;
+}
+.ratio4-3 {
+  width: 100%;
+  background-image: url("../images/under_construction.svg");
+  background-size: cover;
+  height: 0;
+  padding: 0;
+  padding-bottom: calc(100% * 3 / 4);
+}
+.not-found {
+  width: 50%;
+  background-image: url("../images/not_found.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.svg-wrapper {
+  width: 400px;
+}
+.construction-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+}
+.construction-page section {
+  display: flex;
+  flex-direction: row;
+}
+
+#linked-in-icon {
+  -webkit-mask: url("../images/linkedin_logo.png") center/contain;
+  mask: url("../images/linkedin_logo.png") center/contain;
+}
+#instagram-icon {
+  -webkit-mask: url("../images/instagram_logo.png") center/contain;
+  mask: url("../images/instagram_logo.png") center/contain;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+@media screen and (max-width: 400px) {
+  ul {
+    margin-top: 100%;
+  }
+}
+@media screen and (min-width: 700px) {
+  ul {
+    margin-top: 40%;
+  }
+}
+@media screen and (min-width: 900px) {
+  ul li,
+  h1 {
+    font-size: 250%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  ul {
+    margin-top: 25%;
+  }
+  ul li,
+  h1 {
+    font-size: 350%;
+  }
+}
+@media screen and (min-width: 2000px) {
+  ul {
+    margin-top: 30%;
+  }
+  ul li,
+  h1 {
+    font-size: 600%;
+  }
+  #post-title {
+    font-size: 85px;
+  }
+  .section-title {
+    font-size: 65px;
+  }
+  .icon {
+    width: 80px;
+    height: 80px;
+  }
+  #title {
+    margin-left: 240px;
+  }
+  #page-title,
+  .title a {
+    font-size: 335px;
+  }
+}

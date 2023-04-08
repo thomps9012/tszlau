@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/static/apple-touch-icon.png"
+    />
+    <link rel="icon" sizes="32x32" href="/static/favicon-32x32.png" />
+    <link rel="icon" sizes="16x16" href="/static/favicon-16x16.png" />
+    <link rel="manifest" href="/static/site.webmanifest" />
+    <link rel="stylesheet" href="/static/css/normalize.css" />
+    <link rel="stylesheet" href="/static/css/home_style.css" />
+    <title>tszlau_0</title>
+  </head>
+  <body id="root" class="dark-theme">
+    <div id="container">
+      <ul id="icons" class="dark-icons">
+        <li title="Instagram">
+          <a href="https://instagram.com/tszlau_0">
+            <div class="icon" id="instagram-icon"></div>
+          </a>
+        </li>
+        <li title="LinkedIn">
+          <a href="https://www.linkedin.com/in/samuel-joseph-thompson/">
+            <div class="icon" id="linked-in-icon"></div>
+          </a>
+        </li>
+      </ul>
+      <main class="construction-page">
+        <section>
+          <h1>
+            Under Construction... <br />
+            Be Back Soon
+          </h1>
+          <div class="svg-wrapper">
+            <div class="ratio4-3"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <h1 id="copyright">© <span id="current-year"></span> tszlau</h1>
+    </footer>
+  </body>
+  <script>
+    document.getElementById("current-year").innerText =
+      new Date().getFullYear();
+  </script>
+</html>
