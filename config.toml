@@ -6,7 +6,7 @@ paginate = "7"
 theme = "spectral"
 
 [params]
-fancyTitle = "<div id='logo-col'><img src='/img/small_logo.png' alt='tszlau logo' id='small-logo' /><br />tszlau</div>"
+fancyTitle = "<div id='logo-col'><img src='img/small_logo.png' alt='tszlau logo' id='small-logo' /><br />tszlau</div>"
 copyright = "Samuel Thompson"
 description = 'Website Design<br />Application Development<br />Consultation & Solution Development<br />Data ETL Pipelines and Policies<br />Web Education & Tutoring'
 startbuttonText = "Schedule A Consultation Today"
