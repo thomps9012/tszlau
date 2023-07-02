@@ -8,13 +8,14 @@ theme = "spectral"
 [params]
 fancyTitle = "<div id='logo-col'><img src='img/small_logo.png' alt='tszlau logo' id='small-logo' /><br />tszlau</div>"
 copyright = "Samuel Thompson"
-description = 'Website Design<br />Application Development<br />Consultation & Solution Development<br />Data ETL Pipelines and Policies<br />Web Education & Tutoring'
-startbuttonText = "Schedule A Consultation Today"
-# update link to href of contact form
+description = 'Consulting'
+description2 = 'Website Design'
+description3 = 'Application Development'
+description4 = 'Data ETL Pipelines'
+description5 = 'Tutoring'
+startbuttonText = "Schedule Today"
 startbuttonLink = "#contact"
 body_is_markdown = true
-# custom_css = "custom.css"
-#images = ["path_to_social_image_for_link_previews.jpg"]
 
 # [[params.menu.main]]
 # url = '/'

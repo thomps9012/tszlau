@@ -1,10 +1,15 @@
 <section id="banner">
 	<div class="inner">
     <h2>{{ .Site.Params.fancytitle | safeHTML }}</h2>
-    <p>{{ .Site.Params.description | safeHTML }}</p>
+    <p id="banner-description">{{ .Site.Params.description | safeHTML }}</p>
+    <p id="banner-description">{{ .Site.Params.description2 | safeHTML }}</p>
+    <p id="banner-description">{{ .Site.Params.description3 | safeHTML }}</p>
+    <p id="banner-description">{{ .Site.Params.description4 | safeHTML }}</p>
+    <p id="last-description">{{ .Site.Params.description5 | safeHTML }}</p>
     {{ if and .Site.Params.startbuttonText .Site.Params.startbuttonLink }}
 		<ul class="actions special">
-      <li><a href="{{ .Site.Params.StartbuttonLink }}" class="button primary">{{ .Site.Params.StartbuttonText }}</a></li>
+      <li><a href="{{ .Site.Params.StartbuttonLink }}" class="button primary" id="consult-button">{{ .Site.Params.StartbuttonText }}</a></li>
+      <li><a href="{{ .Site.Params.StartbuttonLink }}" class="button primary" id="consult-button2">{{ .Site.Params.StartbuttonText2 }}</a></li>
 		</ul>
     {{ end }}
 	</div>

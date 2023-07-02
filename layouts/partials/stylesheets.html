@@ -16,7 +16,20 @@
     justify-content: center;
   }
 }
-
+#banner-description {
+  margin-bottom: 0%;
+}
+#consult-button2 {
+  display: none;
+}
+@media screen and (max-width: 376) {
+  #consult-button {
+    display: none;
+  }
+  #consult-button2 {
+    display: block;
+  }
+}
 </style>
 {{ $noscript_css := resources.Get "css/noscript.css" | minify | fingerprint "sha512" }}
 <noscript><link rel="stylesheet" href="{{ $noscript_css.RelPermalink }}" integrity="{{ $noscript_css.Data.Integrity }}"></noscript>
