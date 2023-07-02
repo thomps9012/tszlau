@@ -1,6 +1,23 @@
 {{ $css := resources.Get "css/main.css" | minify | fingerprint "sha512" }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+<style>
+    #small-logo {
+  height: 100px;
+  width: 115px;
+}
+@media (max-width: 737px) {
+  #small-logo {
+    height: 85px;
+    width: 100px;
+  }
+  #logo-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 
+</style>
 {{ $noscript_css := resources.Get "css/noscript.css" | minify | fingerprint "sha512" }}
 <noscript><link rel="stylesheet" href="{{ $noscript_css.RelPermalink }}" integrity="{{ $noscript_css.Data.Integrity }}"></noscript>
 
