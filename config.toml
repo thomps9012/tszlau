@@ -110,7 +110,7 @@ body = "Need something that isn't on this list? Let's work together to come up w
 [params.contact]
 enable = true
 title = "Contact"
-body = "Schedule a consultation or drop us a line describing how we can help your goals today."
+body = "Schedule a consultation or drop us a line describing how we can help you achieve your goals today."
 phone = "+1 (216) 970 1203"
 address = "Cleveland Heights, OH<br />USA"
 email = "thomps9012.webdev@gmail.com"
