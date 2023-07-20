@@ -7,11 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="referrer" content="origin">
 
-    <meta name="description" content="Website Design
-Application Development
-Consultation &amp; Solution Development
-Data ETL Pipelines and Policies
-Web Education &amp; Tutoring">
+    <meta name="description" content="Consulting">
     
     <link rel="alternate" type="application/rss+xml" href="https://tszlau.com/index.xml" title="tszlau">
     <meta name="generator" content="Hugo 0.111.3">
@@ -34,7 +30,20 @@ Web Education &amp; Tutoring">
     justify-content: center;
   }
 }
-
+#banner-description {
+  margin-bottom: 0%;
+}
+#consult-button2 {
+  display: none;
+}
+@media screen and (max-width: 376) {
+  #consult-button {
+    display: none;
+  }
+  #consult-button2 {
+    display: block;
+  }
+}
 </style>
 
 <noscript><link rel="stylesheet" href="/css/noscript.min.e6f1ba19697eecfddfbf83ff7181b98181998f163d7005f6ae923451556bf85bef357f43dffe1522b92c1efab7fb38441f479e39b7a03e4313a8ef12b0b01f65.css" integrity="sha512-5vG6GWl&#43;7P3fv4P/cYG5gYGZjxY9cAX2rpI0UVVr&#43;FvvNX9D3/4VIrksHvq3&#43;zhEH0eeObegPkMTqO8SsLAfZQ=="></noscript>
@@ -46,10 +55,10 @@ Web Education &amp; Tutoring">
     
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="tszlau"/>
-<meta name="twitter:description" content="Website Design&lt;br /&gt;Application Development&lt;br /&gt;Consultation &amp; Solution Development&lt;br /&gt;Data ETL Pipelines and Policies&lt;br /&gt;Web Education &amp; Tutoring"/>
+<meta name="twitter:description" content="Consulting"/>
 
     <meta property="og:title" content="tszlau" />
-<meta property="og:description" content="Website Design&lt;br /&gt;Application Development&lt;br /&gt;Consultation &amp; Solution Development&lt;br /&gt;Data ETL Pipelines and Policies&lt;br /&gt;Web Education &amp; Tutoring" />
+<meta property="og:description" content="Consulting" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://tszlau.com/" />
 
@@ -70,10 +79,15 @@ Web Education &amp; Tutoring">
 <section id="banner">
 	<div class="inner">
     <h2><div id='logo-col'><img src='img/small_logo.png' alt='tszlau logo' id='small-logo' /><br />tszlau</div></h2>
-    <p>Website Design<br />Application Development<br />Consultation & Solution Development<br />Data ETL Pipelines and Policies<br />Web Education & Tutoring</p>
+    <p id="banner-description">Consulting</p>
+    <p id="banner-description">Website Design</p>
+    <p id="banner-description">Application Development</p>
+    <p id="banner-description">Data ETL Pipelines</p>
+    <p id="last-description">Tutoring</p>
     
 		<ul class="actions special">
-      <li><a href="#contact" class="button primary">Schedule A Consultation Today</a></li>
+      <li><a href="#contact" class="button primary" id="consult-button">Schedule Today</a></li>
+      <li><a href="#contact" class="button primary" id="consult-button2"></a></li>
 		</ul>
     
 	</div>
@@ -88,12 +102,12 @@ Web Education &amp; Tutoring">
 	<section id="one" class="wrapper style1 special">
 		<div class="inner">
 			<header class="major">
-        <h2>Experienced Web & Application Developers... Let's build something great</h2>
+        <h2>Let's build something great</h2>
 
         
   
   
-    <p>Have an existing framework, great! No? Let&rsquo;s develop one together from the ground up. Whatever your business needs are, we&rsquo;ll create sustainable (long-lasting), and cost effective solutions to meet the unique demands of your business.</p>
+    <p>Have an existing framework, great! If not&hellip;no problem, we&rsquo;ll develop a custom solution together from the ground up. Whatever your business needs, we&rsquo;ll create long-lasting, cost effective solutions to meet the unique demands of your business.</p>
   
 
 
@@ -121,11 +135,11 @@ Web Education &amp; Tutoring">
   
 	<section class="spotlight">
     <div class="image"><img src="/img/pic01.jpg" alt="" /></div><div class="content">
-      <h2>Data Issues No More</h2>
+      <h2>Data Issues Be Gone</h2>
       
   
   
-    <p>Years of experience not only developing data ingestion tools, but building and maintaining Extract / Load / Transform (ETL) pipelines so you know what&rsquo;s happening in your business and why.</p>
+    <p>We can help with data ingestion and Extract / Load / Transform (ETL) pipelines so you know what&rsquo;s happening in your business and why.</p>
   
 
 
@@ -138,7 +152,7 @@ Web Education &amp; Tutoring">
       
   
   
-    <p>With experience working within a plethora of industries, we&rsquo;re able to communicate effectively with technical and non-technical stakeholders to ensure that stakeholders are stastified with results.</p>
+    <p>We&rsquo;re able to communicate effectively with technical and non-technical stakeholders alike to ensure that everyone&rsquo;s stastified.</p>
   
 
 
@@ -151,7 +165,7 @@ Web Education &amp; Tutoring">
       
   
   
-    <p>Let&rsquo;s work together to develop something that is not only solves the business problems of today, but will be able to grow with and meet the needs of your business in the future.</p>
+    <p>We&rsquo;ll help you build a solutions that not only solves the problems of today, but will be able to grow with your business to meet the demands of tomorrow.</p>
   
 
 
@@ -174,7 +188,7 @@ Web Education &amp; Tutoring">
       
   
   
-    <p>A small sampling of services and products available through tszlau</p>
+    <p>A small sampling of services and products available at tszlau</p>
   
 
 
@@ -182,33 +196,33 @@ Web Education &amp; Tutoring">
 		<ul class="features">
       
       <li class="icon solid fa-handshake">
-        <h3>Consultations</h3>
-        <p>Evaluation of current business loads and processes, while identifying areas for improvement. Generate results, reports, and policies that can be read by technical and non-technical stakeholders alike.</p>
+        <h3>Consulting</h3>
+        <p>Evaluation of current digital workflows and processes. Identification of areas of improvement and suggestion of possible solutions and policies via reports that can be understood by technical and non-technical stakeholders alike.</p>
 			</li>
       
       <li class="icon solid fa-pen-nib">
         <h3>Web Design</h3>
-        <p>Creation of a unique and beautiful website that accurately portrays and invites customers to your business.</p>
+        <p>Creation of unique and beautiful websites that accurately portray your business to customers and leave a lasting impression.</p>
 			</li>
       
       <li class="icon brands fa-app-store-ios">
         <h3>Application Development</h3>
-        <p>Mobile or Desktop needs not being met? Let's develop a custom solution to meet your needs.</p>
+        <p>Custom Mobile, Web, and Desktop products to meet the unique needs of your business.</p>
 			</li>
       
       <li class="icon solid fa-database">
         <h3>Data Pipelines & Policy</h3>
-        <p>Use of Extract / Transform / Load pipelines to aggregate data from a variety of sources and give you insights, and provide a holistic picture of the health of your business in real time.</p>
+        <p>Extract / Transform / Load pipelines that aggregate data in realtime from a variety of sources and provide a holistic picture of the health of your business.</p>
 			</li>
       
       <li class="icon solid fa-hashtag">
         <h3>Social Media Management</h3>
-        <p>Need a content media platform that manage and schedule posts all while ensuring brand consistency across mutltiple channels? We've got you covered.</p>
+        <p>Content Media Platforms that can manage and schedule posts to ensure brand consistency across mutltiple channels and get your message out there.</p>
 			</li>
       
       <li class="icon solid fa-dna">
         <h3>Custom Solutions</h3>
-        <p>Need something that isn't on this list? Let's work together to come up with a solution that's unique, just like the needs of your business.</p>
+        <p>Need something that isn't on this list? Let's work together to come up with something great that's unique, just like your business.</p>
 			</li>
       
 		</ul>
@@ -234,7 +248,7 @@ Web Education &amp; Tutoring">
       
   
   
-    <p>Schedule a consultation or drop us a line describing how we can help you achieve your business goals today.</p>
+    <p>Schedule a consultation or drop us a line describing how we can help you achieve your goals today.</p>
   
 
 
