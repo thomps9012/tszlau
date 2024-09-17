@@ -8,12 +8,11 @@ theme = "spectral"
 [params]
 fancyTitle = "<div id='logo-col'><img src='img/small_logo.png' alt='tszlau logo' id='small-logo' /><br />tszlau</div>"
 copyright = "Samuel Thompson"
-description = 'Consulting'
-description2 = 'Website Design'
-description3 = 'Application Development'
-description4 = 'Data ETL Pipelines'
-description5 = 'Tutoring'
-startbuttonText = "Schedule Today"
+description = 'Software Consulting'
+description2 = 'Web / Application Design & Development'
+description3 = 'Custom Software Solutions'
+description4 = 'Data Pipelines & Policy'
+startbuttonText = "Get in Touch Today"
 startbuttonLink = "#contact"
 body_is_markdown = true
 
@@ -34,7 +33,7 @@ body_is_markdown = true
 enable = true
 title = "Let's build something great"
 body = '''
-Have an existing framework, great! If not...no problem, we'll develop a custom solution together from the ground up. Whatever your business needs, we'll create long-lasting, cost effective solutions to meet the unique demands of your business.
+Have an existing product or framework that needs to be updated or built upon, great! New idea? We'll develop a custom solution together from the ground up. Whatever your business needs, we'll create long-lasting, cost effective solutions to meet the unique demands of your business.
 '''
 
 [[params.one.icon]]
@@ -56,11 +55,6 @@ label = "Development"
 enable = true
 
 [[params.two.section]]
-img = "img/pic01.jpg"
-title = "Data Issues Be Gone"
-body = "We can help with data ingestion and Extract / Load / Transform (ETL) pipelines so you know what's happening in your business and why."
-
-[[params.two.section]]
 img = "img/pic02.jpg"
 title = 'Not Technical...No Sweat!'
 body = "We're able to communicate effectively with technical and non-technical stakeholders alike to ensure that everyone's stastified."
@@ -79,18 +73,13 @@ A small sampling of services and products available at tszlau
 
 [[params.three.feature]]
 icon = "solid fa-handshake"
-title = "Consulting"
-body = "Evaluation of current digital workflows and processes. Identification of areas of improvement and suggestion of possible solutions and policies via reports that can be understood by technical and non-technical stakeholders alike."
+title = "Software Consulting"
+body = "Evaluate either current or new digital solutions. Create cohesive and comprehensive solutions with debriefs / reports that can be understood by technical and non-technical stakeholders alike."
 
 [[params.three.feature]]
 icon = "solid fa-pen-nib"
-title = "Web Design"
-body = "Creation of unique and beautiful websites that accurately portray your business to customers and leave a lasting impression."
-
-[[params.three.feature]]
-icon = "brands fa-app-store-ios"
-title = "Application Development"
-body = "Custom Mobile, Web, and Desktop products to meet the unique needs of your business."
+title = "Web / Application Design"
+body = "Creation of unique and beautiful AI, applications, and websites that accurately meet your business needs, and leave a lasting impression."
 
 [[params.three.feature]]
 icon = "solid fa-database"
@@ -98,19 +87,14 @@ title = "Data Pipelines & Policy"
 body = "Extract / Transform / Load pipelines that aggregate data in realtime from a variety of sources and provide a holistic picture of the health of your business."
 
 [[params.three.feature]]
-icon = "solid fa-hashtag"
-title = "Social Media Management"
-body = "Content Media Platforms that can manage and schedule posts to ensure brand consistency across mutltiple channels and get your message out there."
-
-[[params.three.feature]]
 icon = "solid fa-dna"
 title = "Custom Solutions"
-body = "Need something that isn't on this list? Let's work together to come up with something great that's unique, just like your business."
+body = "Need something that isn't on this list? Let's put our heads together to come up with something unique and amazing, just like your business."
 
 [params.contact]
 enable = true
 title = "Contact"
-body = "Schedule a consultation or drop us a line describing how we can help you achieve your goals today."
+body = "Schedule a meeting or drop us a line describing how we can help you achieve your goals today."
 phone = "+1 (216) 970 1203"
 address = "Cleveland Heights, OH<br />USA"
 email = "thomps9012.webdev@gmail.com"
@@ -118,11 +102,11 @@ subject = "New Submission!"
 formspree_form_id = "xyyqgvrn"
 
 [params.social]
-twitter = "@tszlau_0"
-github = ""
-facebook = "profile.php?id=100063777284540"
+twitter = ""
+github = "thomps9012"
+linkedin = "samuel-joseph-thompson"
 youtube = ""
-instagram = "tszlau_0"
+instagram = ""
 
 # language specific options
 
